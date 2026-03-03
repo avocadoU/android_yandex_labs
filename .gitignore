@@ -1,0 +1,36 @@
+# Gradle files
+.gradle/
+build/
+*/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Local configuration file (sensitive data)
+local.properties
+
+# Android studio
+*.iml
+.idea/
+.cxx/
+*.ipr
+*.iws
+*.classpath
+*.project
+.settings/
+bin/
+gen/
+
+# NDK
+.externalNativeBuild
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Keystore files
+*.jks
+*.keystore
+
+# Other
+/captures/
+.cxx/
+*.log
